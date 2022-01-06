@@ -1,0 +1,181 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #E6E6E6;
+font-family: cursive;
+}
+p{
+    font-family: cursive;
+    font-size: 18px;
+}
+.header-area{
+    display: flex;
+}
+.header-text{
+    width: 50%;
+    padding: 2rem 5rem;
+}
+.header-img{
+    width: 45%;
+    padding: 2rem 5rem;
+}
+.header-img img{
+    width: 100%;
+}
+.my-name{
+    border-left: 6px solid navy;
+}
+.my-name h1{
+    margin-left: 15px;
+    font-size: 62px;
+    font-family:'Dancing Script', cursive;;
+}
+.my-name h3{
+    color:lightsalmon;
+    margin-left: 15px;
+    font-size: 45px;
+    font-family: 'Moon Dance', cursive;
+}
+.btn{
+    margin: 30px 0;
+}
+.btn a{
+    text-decoration: none;
+    padding: 12px 22px;
+    color: #fff;
+    font-size: 18px;
+    font-family:cursive;
+    background-color:navy;
+    border-radius: 5px;
+    
+}
+.btn a:hover{
+background-color: #fff;
+color: navy;
+border: 1px solid navy;
+}
+/* ============ end heade area =========*/
+/* ============ Start Service area =========*/
+.service-text h1{
+    text-align: center;
+    font-family: cursive;
+}
+#span-color{
+color: rgb(156, 10, 10);
+}
+.service-item{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.service-box{
+    width: 33%;
+    margin: 10px 30px;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: cursive;
+
+}
+.service-box:nth-child(1){
+    background-color: #135de723;
+}.service-box:nth-child(2){
+    background-color: #16b42331;
+}.service-box:nth-child(3){
+    background-color: #bae0142c;
+}
+.service-box img{
+    width: 50%;
+    margin-top: 20px;
+}
+/* ============== service area end ============ */
+/* ================== development area start =========== */
+.development-area{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.development-img{
+    width:50%;
+    background-image: url(../img/shapes/shape-1.png);
+  background-size:220px;
+  background-position: 60px 50px;
+    background-repeat:no-repeat;
+}
+.development-img img{
+    width: 70%;
+    margin-left: 150px;
+}
+.development-text{
+    width: 40%;
+}
+/* ================== end developmen area ==================== */
+/* ================== Start gobal we area ==================== */ 
+.global-area{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.global-text{
+    width: 40%;
+    margin-left: 150px;
+}
+.global-img{
+    width:50%;
+    background-image: url(../img/shapes/shape-1.png);
+  background-size:220px;
+  background-position: 350px 300px;
+    background-repeat:no-repeat;
+    padding-bottom: 85px;
+}
+.global-img img{
+    width: 70%;
+    margin-left:50px;
+}
+
+/* ============end global area =========*/
+
+/* =========== Start jr developer area ========= */
+.jr-developar{
+    margin-bottom: 50px;
+}
+.developer-title h1 {
+text-align: center;
+font-size: 40px;
+margin-bottom: 30px;
+}
+.jr-developer-item{
+    display: flex;
+    margin-top: 50px;
+}
+.jr-text{
+    width: 50%;
+    padding: 0 50px;
+}
+.jr-img{
+    width: 50%;
+    padding: 0 50px;
+}
+.jr-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* ================= end jr developar area ======= */
+/* start footer area =========== */
+.footer-text{
+    background-color: rgb(2, 2, 26);
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+.footer-text h1{
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.footer-text p{
+    font-family: serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
